@@ -1,0 +1,16 @@
+Validation report, generated 2026-10-31
+
+Automated checks (run on all 3 pages):
+- HTML structure: all tags closed correctly, no duplicate IDs. PASS
+- Link check: every href and src resolves to an existing file; section anchors exist. PASS
+- External requests: none. No CDNs, fonts, scripts, analytics or http(s) links. Only tel: and mailto:. PASS
+- Images: all have alt text and correct width/height attributes. PASS
+- JavaScript: none used (only JSON-LD data), so no console errors possible. PASS
+- Privacy and Terms: all 9 sections of each rendered from the supplied PDF, no PDF hosted or linked. PASS
+- Filenames: lowercase with hyphens (README.txt kept as requested). PASS
+- Mobile: mobile-first CSS, header and nav wrap, product grid is 1 column on narrow screens. PASS (by design)
+
+Not verified automatically (please check in a browser):
+- Visual check at 320px width
+- Colour contrast ratios (palette chosen for AA: white on #0b4f5c, dark text on white)
+- Canonical tags omitted because no final domain was given
